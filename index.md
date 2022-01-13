@@ -9,7 +9,7 @@ How are you today?
 
 ## LOLLLLLLLLLL
 
+[Lab Report 1](lab-report-1-week-2.html)
 
 
 
-![KakaoTalk_Photo_20200214_1439_53589](https://user-images.githubusercontent.com/61016872/149252574-ed5053d9-875a-4075-b255-ae2d3a3003b5.jpg)
