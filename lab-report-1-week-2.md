@@ -1,1 +1,1 @@
-[TEST-SCREENSHOT](https://pixabay.com/images/search/nature/)
+![TEST-SCREENSHOT](https://pixabay.com/images/search/nature/)
