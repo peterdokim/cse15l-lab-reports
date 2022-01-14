@@ -64,6 +64,13 @@ scp WhereAmI.java cs15lwi22acv@ieng6.ucsd.edu:~/
 ```
 
 
+![listing files](https://user-images.githubusercontent.com/61016872/149594901-1c39d0ba-2843-4a49-a91f-7d029b0843d1.png)
+
+You can now see that beside the perl5 orignal file, whereAmI.java has also been implemented.
+
+note that system.getproperty would prompt a property of the machine it is run from. so depending on where you work(client or server),<br>
+its property would be different
+
 
 
 
