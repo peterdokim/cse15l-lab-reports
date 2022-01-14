@@ -38,6 +38,29 @@ Some notes to go through
 -  cd is change directory, can go up directory by implementing 'cd ..'
 -  cp would be copying files to a directory, cat command read data from file and print output [Basic command line words](https://www.codecademy.com/article/command-line-commands)
 
+**Part 4-Moving files over SSH with 'scp'**
+
+# We would now like to copy files back and forth between client and server computers.
+
+1. Create a file called WhereAmI.java where you put following content into it. 
+
+```
+class WhereAmI {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}
+```
+
+
+
+
+
+
+
 
 
 
