@@ -12,4 +12,10 @@ Go to visual studio code website [https://code.visualstudio.com/](https://code.v
 The return value should be presented on your screen like this(**Though this step is a bit further than for now**).
 
 
+**PART 2-Remotely Connecting**
+
+1. Install OpenSSH.
+2. lookup your course specific account(CSE 15L) from this website [https://sdacs.ucsd.edu/~icc/index.php]
+
+
 
