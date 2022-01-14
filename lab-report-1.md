@@ -27,7 +27,15 @@ Give your password for the account after you press 'Yes' for the first time.
 **Part 3-Try some commands**
 
 'try some commands such as cd,ls, pwd,mkdir, cp'
-"\n" codes that we learned in class
+
+
+![commands trying out](https://user-images.githubusercontent.com/61016872/149592942-8b9eaafb-7658-4eab-8d89-610862927f75.png)
+
+Some notes to go through
+- cannot access someone else's folder, can only access my folder
+-  ls just list one file, but ls -lat or ls -a list all the files inside the server computer
+-  cd is change directory, can go up directory by implementing 'cd ..'
+
 
 
 
