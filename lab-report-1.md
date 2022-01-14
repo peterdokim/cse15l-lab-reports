@@ -82,10 +82,14 @@ use  **SSH KEYS**.
 
 ![SSH KEYGEN](https://user-images.githubusercontent.com/61016872/149595509-304b2d04-4076-4859-ac24-e8297e9e9ffe.png)
 
+
+**ON Windows, extra step is described in the document link below**
+<br> [SSH-ADD Steps for Windows](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
 *Now this would create public and private key stored in your computer*
 
 now copy your public key to server client of my user-account.
-```$ ssh cs15lwi22acv@ieng6.ucsd.edu
+```
+$ ssh cs15lwi22acv@ieng6.ucsd.edu
 <Enter Password>
 # now on server
 $ mkdir .ssh
@@ -96,6 +100,30 @@ $ scp /Users/peter/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_ke
 ```
 
 Command line output would look something like this.
+
+(After you do this, you could always scp or ssh from your computer to server computer without password 
+<br> entering every time)
+
+**Part 6- Optimizing Remote Running**
+
+Now you can make local edits to your whereAmI.java in your computer(client),
+<br> and copy into remote server to run it there.
+
+```
+$ ssh cs15lwi22@ieng6.ucsd.edu "ls"
+$ scp WhereAmI.java cs15lwi22acv@ieng6.ucsd.edu:~/ ; ssh cs15lwi22acv@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"
+$ ssh cs15lwi22@ieng6.ucsd.edu "ls -lat"
+$ ssh cs15lwi22@ieng6.ucsd.edu "pwd"
+
+```
+
+By trying some of these commands we know that the commands could be run from your computer to the remote server,
+<br> without having to login to the server everytime writing passwords.(**Incredibly useful**)
+
+
+
+
+![remote command operations](https://user-images.githubusercontent.com/61016872/149596794-c1ab5eaf-e82b-4d3a-8547-9f5fbd2fdd69.png)
 
 
 
