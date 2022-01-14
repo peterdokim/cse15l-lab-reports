@@ -16,6 +16,13 @@ The return value should be presented on your screen like this(**Though this step
 
 1. Install OpenSSH.
 2. lookup your course specific account(CSE 15L) from this website [https://sdacs.ucsd.edu/~icc/index.php]
+3. Connect to the remote computer using VSCode Remote Option
+
+The resulting output should look something like this.
+
+![https://user-images.githubusercontent.com/61016872/149591998-a647c871-329a-49e2-a7b4-4b077f405f6e.png]
+
+
 
 
 
