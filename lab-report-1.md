@@ -92,7 +92,8 @@ $ mkdir .ssh
 $ <logout>
 # back on client
 $ scp /Users/peter/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
-# You use your username and the path you saw in the command above ```
+# You use your username and the path you saw in the command above
+```
 
 Command line output would look something like this.
 
