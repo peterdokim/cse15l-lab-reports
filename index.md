@@ -3,7 +3,7 @@
 
 ### TOPIC : Remote Access
 
-**## PART 1-Installing VSCODE**
+## PART 1-Installing VSCODE
 
 
 ![VSCODE](https://user-images.githubusercontent.com/61016872/149587319-e5ae0f5d-7636-4dca-9541-53640c1263cf.png)
@@ -12,7 +12,7 @@ Go to visual studio code website [https://code.visualstudio.com/](https://code.v
 The return value should be presented on your screen like this(**Though this step is a bit further than for now**).
 
 
-**## PART 2-Remotely Connecting**
+## PART 2-Remotely Connecting
 
 1. Install OpenSSH.
 2. lookup your course specific account(CSE 15L) from this website [https://sdacs.ucsd.edu/~icc/index.php]
@@ -24,7 +24,7 @@ Give your password for the account after you press 'Yes' for the first time.
 
 ![Output](https://user-images.githubusercontent.com/61016872/149592063-d4e686e9-3b3e-474a-b87a-68065f42d0aa.png)
 
-**## Part 3-Try some commands**
+## Part 3-Try some commands
 
 'try some commands such as cd,ls, pwd,mkdir, cp'
 
@@ -41,7 +41,7 @@ Some notes to go through
 -  cd is change directory, can go up directory by implementing 'cd ..'
 -  cp would be copying files to a directory, cat command read data from file and print output [Basic command line words](https://www.codecademy.com/article/command-line-commands)
 
-**## Part 4-Moving files over SSH with 'scp'**
+## Part 4-Moving files over SSH with 'scp'
 
 ### We would now like to copy files back and forth between client and server computers.
 
@@ -74,7 +74,7 @@ You can now see that beside the perl5 orignal file, whereAmI.java has also been 
 note that system.getproperty would prompt a property of the machine it is run from. so depending on where you work(client or server),<br>
 its property would be different
 
-**## Part 5 -Setting an SSH key**
+## Part 5 -Setting an SSH key
 
 Everytime we login to ssh, and scp files, we have to type our password. A good way that could get rid of this is<br>
 use  **SSH KEYS**.
@@ -104,7 +104,7 @@ Command line output would look something like this.
 (After you do this, you could always scp or ssh from your computer to server computer without password 
 <br> entering every time)
 
-**## Part 6- Optimizing Remote Running**
+## Part 6- Optimizing Remote Running
 
 Now you can make local edits to your whereAmI.java in your computer(client),
 <br> and copy into remote server to run it there.
