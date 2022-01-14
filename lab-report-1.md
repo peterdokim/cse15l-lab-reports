@@ -42,7 +42,7 @@ Some notes to go through
 
 ### We would now like to copy files back and forth between client and server computers.
 
-1. Create a file called WhereAmI.java where you put following content into it. 
+1. Create a file called WhereAmI.java in your client computer where you put following content into it. 
 
 ```
 class WhereAmI {
@@ -53,6 +53,14 @@ class WhereAmI {
     System.out.println(System.getProperty("user.dir"));
   }
 }
+```
+
+run javac and java command and note down what you observe.
+
+2. Now run following command
+
+```
+scp WhereAmI.java cs15lwi22acv@ieng6.ucsd.edu:~/
 ```
 
 
