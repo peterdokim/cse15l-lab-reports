@@ -24,6 +24,11 @@ Give your password for the account after you press 'Yes' for the first time.
 
 ![Output](https://user-images.githubusercontent.com/61016872/149592063-d4e686e9-3b3e-474a-b87a-68065f42d0aa.png)
 
+**Part 3-Try some commands**
+
+'try some commands such as cd,ls, pwd,mkdir, cp'
+"\n" codes that we learned in class
+
 
 
 
