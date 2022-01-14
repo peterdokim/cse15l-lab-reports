@@ -28,13 +28,15 @@ Give your password for the account after you press 'Yes' for the first time.
 
 'try some commands such as cd,ls, pwd,mkdir, cp'
 
+![trying out commands](https://user-images.githubusercontent.com/61016872/149593285-e67dc205-6d9f-4ffd-b5e6-3ae3048bdd1f.png)
 
-![commands trying out](https://user-images.githubusercontent.com/61016872/149592942-8b9eaafb-7658-4eab-8d89-610862927f75.png)
+
 
 Some notes to go through
 - cannot access someone else's folder, can only access my folder
 -  ls just list one file, but ls -lat or ls -a list all the files inside the server computer
 -  cd is change directory, can go up directory by implementing 'cd ..'
+-  cp would be copying files to a directory, cat command read data from file and print output [https://www.google.com/search?q=cat+command&rlz=1C1GCEU_koGB871GB871&ei=_fjhYfmxEJ7PkPIP0MWIuAM&ved=0ahUKEwi5pJqMpbL1AhWeJ0QIHdAiAjcQ4dUDCA4&uact=5&oq=cat+command&gs_lcp=Cgdnd3Mtd2l6EAMyCAgAELEDEJECMgQIABBDMgQIABBDMgUIABCABDIECAAQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgUIABCRAjoOCC4QgAQQsQMQxwEQowI6CAgAEIAEELEDOhEILhCABBCxAxCDARDHARDRAzoECC4QQzoRCC4QgAQQsQMQgwEQxwEQowI6BwguELEDEEM6CAguEIAEELEDOgsILhCABBDHARCvAToLCAAQgAQQsQMQyQM6BQgAEJIDSgQIQRgASgQIRhgAUPkBWN4VYOEWaAFwAngAgAHnAYgBuA2SAQUwLjguMpgBAKABAbABAMABAQ&sclient=gws-wiz]
 
 
 
