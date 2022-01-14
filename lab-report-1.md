@@ -40,7 +40,7 @@ Some notes to go through
 
 **Part 4-Moving files over SSH with 'scp'**
 
-# We would now like to copy files back and forth between client and server computers.
+### We would now like to copy files back and forth between client and server computers.
 
 1. Create a file called WhereAmI.java where you put following content into it. 
 
