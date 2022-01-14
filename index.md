@@ -8,7 +8,12 @@ How are you today?
 
 ## LOLLLLLLLLLL
 
+<<<<<<< Updated upstream
 [Lab Report 1](https://stopdatkimmy.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+=======
+![SCREENSHOT] 
+
+>>>>>>> Stashed changes
 
 
 
