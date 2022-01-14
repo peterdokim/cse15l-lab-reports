@@ -74,6 +74,28 @@ You can now see that beside the perl5 orignal file, whereAmI.java has also been 
 note that system.getproperty would prompt a property of the machine it is run from. so depending on where you work(client or server),<br>
 its property would be different
 
+**Part 5 -Setting an SSH key**
+
+Everytime we login to ssh, and scp files, we have to type our password. A good way that could get rid of this is<br>
+use  **SSH KEYS**.
+
+
+![SSH KEYGEN](https://user-images.githubusercontent.com/61016872/149595509-304b2d04-4076-4859-ac24-e8297e9e9ffe.png)
+
+*Now this would create public and private key stored in your computer*
+
+now copy your public key to server client of my user-account.
+```$ ssh cs15lwi22acv@ieng6.ucsd.edu
+<Enter Password>
+# now on server
+$ mkdir .ssh
+$ <logout>
+# back on client
+$ scp /Users/peter/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys
+# You use your username and the path you saw in the command above ```
+
+Command line output would look something like this.
+
 
 
 
