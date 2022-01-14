@@ -20,7 +20,8 @@ The return value should be presented on your screen like this(**Though this step
 
 The resulting output should look something like this.
 
-![https://user-images.githubusercontent.com/61016872/149591998-a647c871-329a-49e2-a7b4-4b077f405f6e.png]
+
+![Output](https://user-images.githubusercontent.com/61016872/149592063-d4e686e9-3b3e-474a-b87a-68065f42d0aa.png)
 
 
 
