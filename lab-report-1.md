@@ -28,7 +28,10 @@ Give your password for the account after you press 'Yes' for the first time.
 
 'try some commands such as cd,ls, pwd,mkdir, cp'
 
+![Initial workings](https://user-images.githubusercontent.com/61016872/149595269-65af3a17-79fc-474a-849b-df244366fab6.png)
+
 ![trying out commands](https://user-images.githubusercontent.com/61016872/149593285-e67dc205-6d9f-4ffd-b5e6-3ae3048bdd1f.png)
+
 
 
 
