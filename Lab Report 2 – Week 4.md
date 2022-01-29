@@ -14,7 +14,7 @@
 
 The bug in this case would be that the starter code in the MarkdownParse.java file only searches for the next close bracket or</br>
 in this case **]** to look for parentheses **(** after it. So if there were no parentheses after the close bracket then the loop would</br>
-never end and cause indexoutofboundsexception. (So trying to find index of parentheses would result in -1 instead of positive number).
+never end and cause indexoutofboundsexception,symptom in this case. (So trying to find index of parentheses would result in -1 instead of positive number).
 Failure inducing input in this case would be no open and closed parentheses in between the closed bracket of first link and open bracket of
 second link which makes the loop to run forever. In order to finish the loop, if index of any of the bracket or parentheses were less than 0, 
 we would break and end the loop.
