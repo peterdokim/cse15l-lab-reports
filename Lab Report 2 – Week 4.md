@@ -46,7 +46,7 @@ Symptom is that there is not enough memory in the system so as it runs the infin
 ![Screenshot 2022-01-28 162544](https://user-images.githubusercontent.com/61016872/151640312-d5d03f38-9e2a-45a9-81ec-f50202a7d78d.png)
 
 
-### [Link to failure-inducing input]
+### [Link to failure-inducing input](https://github.com/bcli12/markdown-parse/commit/0dcf4cb433e683971ab8812b5cfbfac2307ae5ce)
 
 
 ![Screenshot 2022-01-28 165145](https://user-images.githubusercontent.com/61016872/151640106-0c88fb33-af5d-4b66-856f-3df433d960e1.png)
@@ -56,7 +56,7 @@ Symptom is that there is not enough memory in the system so as it runs the infin
 
 ##### Relation
 bug would be that the code is not testing for when there is image file, it only test for links to a certain website not for 
-image so can't cpunt for exclamtion point in the middle. Failure inducing input is the image file. SYmptom would be
+image so can't count for exclamation point in the middle. Failure inducing input is the image file. Symptom would be
 that the method would just be in infinite loop so it would not finish, so code runs out of heap space as memory is long gone.
 SO in linke 25-27 we said if code include ! we would do openparentheses -1 to finish loop.
 
