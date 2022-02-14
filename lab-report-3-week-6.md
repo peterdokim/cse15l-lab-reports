@@ -9,7 +9,7 @@ The -r option tells scp to work recursively. The . is the source, and is the cur
 The ~/markdown-parse tells scp to create the markdown-parse directory on the remote server (if it doesn’t exist),</br> 
 and then copy the contents of this directory recursively there.
 
-2.  logging into your ieng6 account after doing this and compiling and running the tests for your repository
+2. logging into your ieng6 account after doing this and compiling and running the tests for your repository
 
   I logged into my ieng6 account
 ![Screenshot 2022-02-11 144422](https://user-images.githubusercontent.com/61016872/153680776-99d3fb1b-7108-4ee5-9555-04dd78503819.png)
