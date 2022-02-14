@@ -21,11 +21,12 @@ and then copy the contents of this directory recursively there.
 This would run the test exactly like in our directory. so all our tests pass in this markdownparse test and markdownparse.java.
 
 3. combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
+![Screenshot 2022-02-13 162344](https://user-images.githubusercontent.com/61016872/153782121-687e61ce-e4f2-4025-aca4-9ad71407b9a0.png)
 
-![Screenshot 2022-02-11 155027](https://user-images.githubusercontent.com/61016872/153685822-6036deff-f434-48be-b202-d9b6ac9b139b.png)
+![Screenshot 2022-02-13 162419](https://user-images.githubusercontent.com/61016872/153782126-d3d0e092-caa6-4b01-b8a5-06c288f95659.png)
 
-doesn't work for some reason ....... 
 
+The copying logging into java is fine now, but the symbols are not recongnized as indicated by the diagram
 
 
 
