@@ -6,7 +6,8 @@
 
 ### 2. Link to other group's markdownparse repository: https://github.com/TheZenMasterz/markdown-parse
 
-er
+Snippet 1.
 
+![Screenshot 2022-02-25 023452](https://user-images.githubusercontent.com/61016872/155700570-f1a81c7e-9b52-4592-85d7-1b76f939a345.png)
 
 
