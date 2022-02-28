@@ -95,7 +95,7 @@ for(int i = 0;i<array.length;i++){
 //remove all the brackets within the nested loop}
 Same goes for escape brackets and nested parenthesized url. For nested url, cannot find the next closebracket if there are more than one open brackets.
 So just change the code so that in line 32 insert case when substring.contains("(") to add all the nested parentheses.
-For escaped brackets, just remove escaped brackets.<br>
+For escaped brackets, just remove escaped brackets.
 
 
 
