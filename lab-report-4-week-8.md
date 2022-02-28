@@ -90,7 +90,7 @@ preprocess string by removing regions that have backtick formatted code in them.
 For example, if we look at [a [nested link](a.com)](b.com)
 only the inner-most definition of links are used, so a.com is produced. So we would have to check for number of brackets in the links and remove those within, which would not
 be enough for less than 10 lines of code. We might have to do something like<br>
-  </p>
+ 
 for(int i = 0;i<array.length;i++){
 //remove all the brackets within the nested loop}
 Same goes for escape brackets and nested parenthesized url. For nested url, cannot find the next closebracket if there are more than one open brackets.
@@ -99,6 +99,8 @@ For escaped brackets, just remove escaped brackets.
 
 
 
+  
+	
 3. Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
 
 I think in case when there is newlines in brackets and parentheses, we would have to try and catch "\n" and break the code.<br> 
