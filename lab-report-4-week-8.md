@@ -2,9 +2,9 @@
 
 ## In this assignment, we will learn further about how testing and debugging works with VSCODE
 
-### 1. Link to my markdown-parse repository: https://github.com/stopdatkimmy/markdown-parse
+### 1. Link to my markdown-parse repository: [My repository](https://github.com/stopdatkimmy/markdown-parse)
 
-### 2. Link to other group's markdownparse repository: https://github.com/TheZenMasterz/markdown-parse
+### 2. Link to other group's markdownparse repository: [other group repository](https://github.com/TheZenMasterz/markdown-parse)
 
 #### Snippet 1.
 VS code preview
@@ -60,7 +60,7 @@ And again, Both implementation do not work
 
 
 ### Answer the following questions with 2 or 3 sentences each
-1. Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? 
+#### 1. Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? 
 If yes, describe the code change. If not, describe why it would be a more involved change.
 
 I do not think that there could be a small code change for it to work for snippet 1 with inline ocde with backticks. One way to solve this problem would be to 
@@ -84,7 +84,7 @@ preprocess string by removing regions that have backtick formatted code in them.
 	return fin;<br>
 }**<br>
 
-2. Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
+#### 2. Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
 
 <p>No because I think it would be more of a involved change where we would have to check for number of nested parentheses within the links.<br>
 For example, if we look at [a [nested link](a.com)](b.com)
@@ -95,13 +95,13 @@ for(int i = 0;i<array.length;i++){
 //remove all the brackets within the nested loop}
 Same goes for escape brackets and nested parenthesized url. For nested url, cannot find the next closebracket if there are more than one open brackets.
 So just change the code so that in line 32 insert case when substring.contains("(") to add all the nested parentheses.
-For escaped brackets, just remove escaped brackets.
+For escaped brackets, just remove escaped brackets.<br>
 
 
 
   
 	
-3. Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
+#### 3. Do you think there is a small (<10 lines) code change that will make your program work for snippet 3 and all related cases that have newlines in brackets and parentheses? If yes, describe the code change. If not, describe why it would be a more involved change.
 
 I think in case when there is newlines in brackets and parentheses, we would have to try and catch "\n" and break the code.<br> 
 so either do **if(nextopenbracket=="\n"){break;}** or try to catch just the links that are lines below the brackets.
