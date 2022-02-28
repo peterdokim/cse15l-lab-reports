@@ -6,7 +6,7 @@
 
 ### 2. Link to other group's markdownparse repository: [other group repository](https://github.com/TheZenMasterz/markdown-parse)
 
-#### Snippet 1.
+### Snippet 1.
 VS code preview
 ![Screenshot 2022-02-25 023452](https://user-images.githubusercontent.com/61016872/155700570-f1a81c7e-9b52-4592-85d7-1b76f939a345.png)
 
@@ -23,7 +23,7 @@ Test added on MarkdownParseTest.java
 
 Both implementation do not pass.
 
-#### Snippet 2
+### Snippet 2
 VS code preview
 ![Screenshot 2022-02-27 182337](https://user-images.githubusercontent.com/61016872/155913884-9afa2894-b6d6-41a7-af68-8427bf8f9083.png)
 
@@ -39,7 +39,7 @@ Test added on MarkdownParseTest.java
 
 Both implementation do not pass
 
-#### Snippet 3
+### Snippet 3
 
 VS code preview
 ![Screenshot 2022-02-27 185036](https://user-images.githubusercontent.com/61016872/155916033-07bf348b-0c4d-4661-8370-6c7e8306e084.png)
@@ -60,6 +60,7 @@ And again, Both implementation do not work
 
 
 ### Answer the following questions with 2 or 3 sentences each
+
 #### 1. Do you think there is a small (<10 lines) code change that will make your program work for snippet 1 and all related cases that use inline code with backticks? 
 If yes, describe the code change. If not, describe why it would be a more involved change.
 
@@ -86,7 +87,7 @@ preprocess string by removing regions that have backtick formatted code in them.
 
 #### 2. Do you think there is a small (<10 lines) code change that will make your program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets? If yes, describe the code change. If not, describe why it would be a more involved change.
 
-<p>No because I think it would be more of a involved change where we would have to check for number of nested parentheses within the links.<br>
+No because I think it would be more of a involved change where we would have to check for number of nested parentheses within the links.<br>
 For example, if we look at [a [nested link](a.com)](b.com)
 only the inner-most definition of links are used, so a.com is produced. So we would have to check for number of brackets in the links and remove those within, which would not
 be enough for less than 10 lines of code. We might have to do something like<br>
@@ -95,7 +96,7 @@ for(int i = 0;i<array.length;i++){
 //remove all the brackets within the nested loop}
 Same goes for escape brackets and nested parenthesized url. For nested url, cannot find the next closebracket if there are more than one open brackets.
 So just change the code so that in line 32 insert case when substring.contains("(") to add all the nested parentheses.
-For escaped brackets, just remove escaped brackets.
+For escaped brackets, just remove escaped brackets.<br>
 
 
 
