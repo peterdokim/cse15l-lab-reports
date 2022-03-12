@@ -27,6 +27,9 @@ running diff on the two results.txt output redirection that I have done
 
 On line 599 in results.txt there is difference, which corresponds to 342.md in the test files.
 
+
+
+
 I believe that the implementation that the lab 9 Joe had for his ucsd-cse-15l-markdown-parse was the correct implementation.
 
 
