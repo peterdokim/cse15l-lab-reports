@@ -23,7 +23,7 @@ For each test:
 # Test 1
 ## running diff on the two results.txt output redirection that I have done
 
-<img src="https://user-images.githubusercontent.com/61016872/157998784-39071f3d-c63e-4fd4-9408-17c177901214.png" width="1500" height="100">
+<img src="https://user-images.githubusercontent.com/61016872/157998784-39071f3d-c63e-4fd4-9408-17c177901214.png" width="1200" height="70">
 First output is my markdownparse file result, second output is professor's markdownparse file result for 342.md test file
 
 **Both Actual Outputs are shown here using diff**
@@ -55,9 +55,9 @@ On line 1027 in results.txt, there is a difference, which corresponds to 508.md 
 
 
 ### Test 2 actual file 508.md
-<img src="https://user-images.githubusercontent.com/61016872/158002138-c7442390-31dd-4794-86f8-c72f0a6942ea.png" width="1000" height="70">
+<img src="https://user-images.githubusercontent.com/61016872/158002138-c7442390-31dd-4794-86f8-c72f0a6942ea.png" width="1000" height="50">
 
--Expected output [/url 'title "and" title'] </br>
+**-Expected output [/url 'title "and" title']**
 
 I think in this case both my implementation and the professor's implementation is wrong. In the case of my implementation, I have repeated the same output too many times
 as the expected behavior is a valid link with a single line of link inside the parentheses. It is a valid link, with escape sign right after the parentheses, so the escape sign
