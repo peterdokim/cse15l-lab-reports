@@ -23,7 +23,7 @@ For each test:
 # Test 1
 ## running diff on the two results.txt output redirection that I have done
 
-<img src="https://user-images.githubusercontent.com/61016872/157998784-39071f3d-c63e-4fd4-9408-17c177901214.png" width="3000" height="200">
+<img src="https://user-images.githubusercontent.com/61016872/157998784-39071f3d-c63e-4fd4-9408-17c177901214.png" width="1500" height="100">
 First output is my markdownparse file result, second output is professor's markdownparse file result for 342.md test file
 
 **Both Actual Outputs are shown here using diff**
@@ -33,7 +33,7 @@ On line 599 in results.txt there is difference, which corresponds to 342.md in t
 
 
 ### Test 1 actual file 342.md
-<img src="https://user-images.githubusercontent.com/61016872/158002114-763e3f4c-6f42-4d9f-8069-ba86d1220996.png" width="2000" height="200">
+<img src="https://user-images.githubusercontent.com/61016872/158002114-763e3f4c-6f42-4d9f-8069-ba86d1220996.png" width="1500" height="100">
 
 **Expected output []**
 
@@ -47,7 +47,7 @@ closed bracket which would have to evaluate string or some form of command in th
 ## running diff on the two results.txt output redirection
 
 **These are the actual outputs to the test 2**
-<img src="https://user-images.githubusercontent.com/61016872/157998823-3e11db61-c84f-4ab2-a81b-e951c975bde8.png" width="1000" height="200">
+<img src="https://user-images.githubusercontent.com/61016872/157998823-3e11db61-c84f-4ab2-a81b-e951c975bde8.png" width="1000" height="100">
 First output is my markdownparse.java file result, and Second output is the professor's markdownparse.java result
 
 On line 1027 in results.txt, there is a difference, which corresponds to 508.md in test-files
@@ -55,7 +55,7 @@ On line 1027 in results.txt, there is a difference, which corresponds to 508.md 
 
 
 ### Test 2 actual file 508.md
-<img src="https://user-images.githubusercontent.com/61016872/158002138-c7442390-31dd-4794-86f8-c72f0a6942ea.png" width="1000" height="100">
+<img src="https://user-images.githubusercontent.com/61016872/158002138-c7442390-31dd-4794-86f8-c72f0a6942ea.png" width="1000" height="70">
 
 -Expected output [/url 'title "and" title'] </br>
 
